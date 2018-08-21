@@ -25,7 +25,7 @@ public class Main {
     }
     //Simulates launch and land, U1 rockets
     int budgetU1 = simulation.runSimulation(u1sPhase1) + simulation.runSimulation(u1sPhase2);
-    System.out.println("\nBudget for U1 rockets"+budgetU1);
+    System.out.println("\nBudget for U1 rockets: "+budgetU1);
 
 
     System.out.println("\n\nTrying U2 rockets\n\n");
